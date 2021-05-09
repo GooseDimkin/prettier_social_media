@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #F3F2EF;
+}
+
+.content {
+  max-width: 1145px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.right_content {
+  position: absolute;
+  margin-left: 247px;
+}

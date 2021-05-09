@@ -1,0 +1,22 @@
+.section {
+    margin-left: 22px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #DEDDDA;
+    width: 291px;
+    height: 265px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 15px;
+    color: #434343;
+}
+
+.show_more {
+    margin-top: 10px;
+    color: #434343;
+    font-size: 13px;
+    cursor: pointer;
+}

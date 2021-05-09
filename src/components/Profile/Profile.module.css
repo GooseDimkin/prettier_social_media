@@ -1,0 +1,42 @@
+.profile_header {
+    height: 50px;
+    overflow:hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.header_image {
+    width: 100%;
+}
+
+.avatar {
+    height: 68px;
+    width: 68px;
+    border-radius: 100%;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.section {
+    width: 224px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    height: 190px;
+    border: 1px solid #DEDDDA;
+    margin-right: 22px;
+}
+
+.name {
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.status {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+    color: #666666;
+}

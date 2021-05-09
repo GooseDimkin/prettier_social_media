@@ -1,0 +1,31 @@
+.post_section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #DEDDDA;
+    width: 500px;
+    margin-bottom: 7px;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #434343;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.avatar {
+    height: 68px;
+    width: 68px;
+    border-radius: 100%;
+}
+
+.post_image {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
