@@ -5,6 +5,8 @@
     border: 1px solid #DEDDDA;
     width: 500px;
     margin-bottom: 7px;
+    z-index:-1;
+    position:relative
 }
 
 .label {

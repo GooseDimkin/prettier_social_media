@@ -1,7 +1,6 @@
 import API from './../../api/api';
 
 const GET_FRIENDS = 'GET_FRIENDS';
-const GET_TOTAL_COUNT = 'GET_TOTAL_COUNT';
 const CHANGE_PAGE = 'CHANGE_PAGE';
 const SHOW_LOADING = 'SHOW_LOADING';
 

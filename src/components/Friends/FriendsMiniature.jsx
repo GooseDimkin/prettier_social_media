@@ -1,8 +1,8 @@
-import style from './Friends_Miniature.module.css';
+import style from './FriendsMiniature.module.css';
 import {NavLink} from 'react-router-dom';
 import React from 'react';
 
-function Friends_Miniature(props) {
+function FriendsMiniature(props) {
     return(
         <div className={style.section}>
             <div className={style.label}>Друзья</div>
@@ -12,4 +12,4 @@ function Friends_Miniature(props) {
     );
 }
 
-export default Friends_Miniature;
+export default FriendsMiniature;

@@ -8,16 +8,20 @@ import Sticky from 'react-stickynode';
 
 function App(props) {
   return(
-    <body>
-        <Header/>
+    <div>
+        <Sticky enabled={true} top={0} bottomBoundary={0}>
+          <Header/>
+        </Sticky>
         <div className={style.content}>
-            <Sticky enabled={true} top={50} bottomBoundary={1200}>
+            <Sticky enabled={true} top={54} bottomBoundary={0}>
               <Profile/>
             </Sticky>
-            <div className={style.right_content}><Route path='/home' render={()=> <ContentContainer/>} /></div>
-            <Route path='/friends' render={()=> <FriendsPageContainer/>}/>
+            <div className={style.right_content}>
+              <Route path='/home' render={()=> <ContentContainer/>} />
+              <Route path='/friends' render={()=> <FriendsPageContainer/>}/>
+            </div>
         </div>
-    </body>
+    </div>
   )
 }
 

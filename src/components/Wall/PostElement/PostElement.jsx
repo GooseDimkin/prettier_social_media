@@ -7,7 +7,7 @@ function PostElement(props) {
             <span className={style.label}>{props.name}</span>
             <div className={style.post}>
                 <div className={style.text}>{props.text}</div>
-                {props.image && <img className={style.post_image} src={props.image} alt='test picture' />}
+                {props.image && <img className={style.post_image} src={props.image} alt='post' />}
             </div>
         </div>
     );

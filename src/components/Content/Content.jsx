@@ -1,6 +1,6 @@
 import style from './Content.module.css';
 import WallContainer from './../Wall/Wall';
-import Friends_Miniature from './../Friends/Friends_Miniature';
+import FriendsMiniature from '../Friends/FriendsMiniature';
 import React from 'react';
 import {connect} from 'react-redux';
 import {getFriendsTC} from './../../Redux/reducers/friendsReducer';
@@ -13,8 +13,8 @@ function Content(props) {
     return(
         <div className={style.content}>
             <WallContainer/>
-            <Sticky enabled={true} top={50} bottomBoundary={1200}>
-                <Friends_Miniature getFriends={props.getFriends}/>
+            <Sticky enabled={true} top={54} bottomBoundary={1200}>
+                <FriendsMiniature getFriends={props.getFriends}/>
             </Sticky>
         </div>
     );
